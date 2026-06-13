@@ -4,7 +4,7 @@ ChoreSync is a collaborative web application that helps households assign, track
 
 This project functions as an independent version of a full-stack group term project originally built under the name FairShare, utilizing a React + Vite frontend and an Express + Firebase backend.
 
-Features
+# Features
 
 User Onboarding & Accounts
 * Create or join a household via invite code
@@ -37,7 +37,7 @@ Fairness & Leaderboard
 * Per-user point tracking
 * Gini-coefficient–based fairness score to quantify equity across the household
 
-Tech Stack
+# Tech Stack
 
 Frontend
 * React 19 + Vite
@@ -58,7 +58,7 @@ Development & Testing
 * nodemon + ts-node
 * Jest (backend, partial)
 
-Architecture Overview
+# Architecture Overview
 
 Frontend
 * Single-page application
@@ -76,7 +76,7 @@ Backend API
   * /api/chores/* — chore lifecycle and calendar aggregation
   * /api/user/*, /api/session — authentication and session persistence
 
-Consistency & Persistence
+# Consistency & Persistence
 * Firestore transactions ensure atomic updates when chores are completed or reassigned
 * Chore assignments are generated server-side before being persisted to the database
 # term-project-anotida-noor-laurianie-madison README
